@@ -39,7 +39,7 @@ def get_bet():
             else:
                 print("Bet amount must be between $" + str(MIN_BET) + " and $" + str(MAX_BET) + ".")
         else:
-            print("please enter a number")
+            print("please enter a specific number")
     return bet
 
 def main():
